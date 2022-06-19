@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#fer {
+    color: brown;
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: orange;
+}
+
+img.profile {
+    width:30%; 
+    height: 30%;
+}
+
+ul.tabs { /* every ul with 'tabs' class */
+    background-color: #ffadce;
+    list-style: none outside none;
+    overflow: hidden;
+    padding: 6px 0;
+    border: rgb(255, 14, 255);
+    border-style: double;
+    border-color: violet;
+}
+
+ul.tabs>li.selected.tab{  every ul with 'tabs' class that has a direct child which is li element with 
+    color: white;
+    text-decoration: none;
+}
+
+a.unselected.tab {
+    color: purple;
+    text-decoration: none;
+}
+
+ul.tabs>li {
+    background-color: #f5b5cf;
+    float: left;
+    width: 33.3333%;
+}
+li:first-child {
+    margin-left: 0;
+}
+
+ul.tabs>li:hover:not(.selected.tab){
+    background-color: #d35688;
+}
